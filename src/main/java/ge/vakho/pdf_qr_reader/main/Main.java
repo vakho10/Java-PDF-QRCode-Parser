@@ -22,10 +22,6 @@ public class Main {
 
       // (3) Process QR results
       for (Result result : results) {
-
-        // XXX Don't uncomment this!
-        // ImageIO.write(image, "PNG", new File(UUID.randomUUID().toString() + ".png"));
-
         System.out.println(result.getText()); // That's all.        
       }
 
