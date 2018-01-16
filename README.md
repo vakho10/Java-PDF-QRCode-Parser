@@ -16,11 +16,7 @@ public static void main(String[] args) {
       List<Result> results = PDFUtils.getQRResultsFromDocument(document);
 
       // (3) Process QR results
-      for (Result result : results) {
-
-        // XXX Don't uncomment this!
-        // ImageIO.write(image, "PNG", new File(UUID.randomUUID().toString() + ".png"));
-
+      for (Result result : results) {      
         System.out.println(result.getText()); // That's all.        
       }
 
